@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'plain light';
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     background-image: url(https://images.unsplash.com/photo-1578301978018-3005759f48f7?q=80&w=2044&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#panel{
+    width: 68vw;
+    height: 82vh;
+    overflow: hidden;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    margin-top: 5vh;
+}
+#ptop{
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 18%;
+    color: #fff;
+    border-bottom: 0.2vw solid black;
+    background-color: #06d6a0;
+}
+.elem{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 0.7vw;
+}
+.elem h2{
+    font-weight: 700;
+    font-size: 4.2vh;
+    color: orangered;
+}
+.box{
+    color: orangered;
+    font-size: 4vh;
+    font-weight: 600;
+    padding: 1.5vh 1.5vw;
+    background-color: #cecdc6;
+    border-radius: 15%;
+    border: 0.2vw solid #000;
+}
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+    padding: 0.8vw;
+    width: 100%;
+    height: calc(100% - 18%);
+    background-image: url(https://images.unsplash.com/photo-1621791556403-981f1789254d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#pbtm h1{
+    font-size: 5vw;
+}
+.bubble{
+    width: 45px;
+    height: 45px;
+    background-color: #118ab2;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4vw;
+}
+.bubble:hover{
+    background-color: #0b5c77;
+    cursor: pointer;
+}
+#panel2{
+    height: 8vh;
+    width: 30vw;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#main button{
+    position: relative;
+    height: 3.5vw;
+    width: 9vw;
+    font-size: 2.2vw;
+    font-weight: 700;
+    border-radius: 1vw;
+    right: 5%;
+    border: 0.2vw solid black;
+    color: rgba(0, 0, 0, 0.823) ;
+    background-color:chartreuse;
+}
+
+  
